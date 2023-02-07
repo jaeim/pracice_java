@@ -6,7 +6,7 @@ public class Insert_Sort {
     public static void main(String[] args) {
         // 삽입정렬을 배열로 구현하는 경우 삽입 후 요소의 위치이동에 따른 연산이 복잡하기 때문에 리스트로 구현하는게 훨씬 간단하고 효율도 좋다.
         LinkedList<Integer> list = new LinkedList<>(Arrays.asList(3, 6, 41, 2, 4, 1, 5, 743));
-//        int[] arr = new int[]{3, 6, 41, 2, 4, 1, 5, 743};
+        int[] arr = new int[]{3, 6, 41, 2, 4, 1, 5, 743};
         list = (LinkedList<Integer>) insertSort(list);
         Iterator<Integer> iter = list.listIterator();
         while (iter.hasNext()) {
