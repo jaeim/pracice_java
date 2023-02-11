@@ -123,4 +123,28 @@ public class QuickSort {
         a[j] = tmp;
     }
 
+    /*
+        실제 코드에서 활용할 때..
+    * */
+
+    void sort(int[] a, int left, int right){
+        int pl = left;
+        int pr = right;
+        int x = a[(pl+pr)/2];
+
+        do{
+            while(a[pl] < x) pl++;
+            while(a[pr] > x) pr--;
+            if(pl <= pr){
+                int temp = a[pl];
+                a[pl] = a[pr];
+                a[pr] = temp;
+                pl++;
+                pr--;
+            }
+        }while(pl <= pr);
+
+        if(left < pr) sort(a, left, pr);
+        if(right > pl) sort(a, pl, right);
+    }
 }
