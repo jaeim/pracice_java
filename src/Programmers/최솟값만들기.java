@@ -1,7 +1,11 @@
 package Programmers;
 
 import java.util.*;
-
+/**
+ * level 2
+ * 최솟값 만들기
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12941
+ */
 class 최솟값만들기
 {
     public int solution(int []A, int []B)

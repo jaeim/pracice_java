@@ -3,7 +3,11 @@ package Programmers;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-
+/**
+ * level 2
+ * H INDEX
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42747
+ */
 public class Cititations {
     public int solution(int[] citations) {
 

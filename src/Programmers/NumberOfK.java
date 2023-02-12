@@ -1,7 +1,11 @@
 package Programmers;
 
 import java.util.Arrays;
-
+/**
+ * level 1
+ * K번째수
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42748
+ */
 public class NumberOfK {
     // 1. Arrays.copyOfRange() 안쓰고 구현한 경우
     public int[] solution(int[] array, int[][] commands) {

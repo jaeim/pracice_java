@@ -3,7 +3,11 @@ package Programmers;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
-
+/**
+ * level 1
+ * 모의고사
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42840
+ */
 public class Supo {
     /* 1. 정답은 맞췄지만..
         - 최댓값 구하는 부분

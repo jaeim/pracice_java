@@ -1,5 +1,9 @@
 package Programmers;
-
+/**
+ * level 2
+ * 올바른 괄호
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12909
+ */
 public class 괄호 {
         boolean solution(String s) {
             /*
