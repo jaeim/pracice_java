@@ -3,10 +3,8 @@ package JavaCodingTest.bfs;
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
 
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Scanner;
+import javax.print.attribute.HashPrintServiceAttributeSet;
+import java.util.*;
 
 public class DFS_List {
     public static void main(String[] args) {
