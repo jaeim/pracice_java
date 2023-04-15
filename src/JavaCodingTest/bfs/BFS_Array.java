@@ -18,7 +18,7 @@ public class BFS_Array {
 
         // 두 점 사이에 간선
         // 주어지는 간선은 양방향이다.
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < m; i++) {
           int v1 = sc.nextInt();
           int v2 = sc.nextInt();
           adArray[v1][v2] = 1;
